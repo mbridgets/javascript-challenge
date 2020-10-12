@@ -1,8 +1,7 @@
 // from data.js
 var tableData = data;
 var tbody = d3.select("tbody");
-var button = d3.select("#filter-btn");
-// var form = d3.select("#form");
+var button = d3.select("#filter-btn"); 
 
 
 tableData.forEach(function(sighting){
